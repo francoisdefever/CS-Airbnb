@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Author's custom styles
+ ========================================================================== */
+
+
+/*header*/
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url(../img/headerapo1.jpg);
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+
+/*couleur de texte de la navbar*/
+.page-scroll {
+  color: white;
+}
+
+/*positionnement et style du titre et texte du header*/
+.header-content, .search {
+  padding: 80px 0;
+  color: white;
+}
+
+/*positionnement et style du bouton mode d'emploi*/
+#mode {
+  margin-top: 50px;
+  background: none;
+  color: white;
+}
+
+/*Partie Accueillir un voyageur*/
+/*positionnement du texte*/
+.voyageur {
+  padding-top: 20px;
+}
+
+/*Titre (marge et style)*/
+#titrehote {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+/*Positionnement du paragraphe Gagnez de l'argent*/
+#argent {
+  padding-bottom: 20px;
+}
+
+/*positionnement du bouton estimez mes revenus et son texte*/
+.revenus {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*Partie Voir les destinations*/
+/*positionnement du bouton voir les destinations*/
+#destinations {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+/*positionnement footer et image de fond*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/footer.jpg);
+}
+
+/*couleur de texte des listes*/
+.list-unstyled {
+  color: white;
+}
+
+/*couleur de texte des titres des listes du footer*/
+.titrefooter {
+  color: white;
+}
+#checkin {
+  margin-left: -30px;
+}
+#checkout {
+  margin-left: -60px;
+}
+#guest {
+  margin-left: -130px;
+}
+#rechercher {
+  margin-left: -150px;
+}
+
+/*Modification des logos réseaux sociaux*/
+#twitter, #facebook, #google {
+  border-radius: 10px;
+  background-color: white;
+  width: 70px;
+}
